@@ -268,7 +268,7 @@ render() {
         <span className="Post__name">DevMountain</span>
         <span className="Post__handle">@DevMountain</span>
 
-        <span className="Post__date">- { date }</span>
+        <span className="Post__date">- { date }POST DATE GOES HERE</span>
       </div>
 
       <div className="Post__content">

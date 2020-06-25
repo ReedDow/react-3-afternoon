@@ -13,7 +13,7 @@ export default class Compose extends Component {
       text: ''
     };
 
-    this.createPost = this.createPost.bind( this );
+    this.createPost = this.createPost.bind(this);
   }
 
   updateText( text ) {
@@ -21,13 +21,12 @@ export default class Compose extends Component {
   }
 
   createPost() {
-    const {text} = this.state;
-    const {createPostFn} = this.props
-
-    createPostFn(text);
-    this.setState({text: '' });
-
-  }
+    const { text } = this.state;
+    const { createPostFn } = this.props;
+  
+    createPostFn( text )
+    this.setState({ text: '' });
+  } 
 
   render() {
     // Destructuring
